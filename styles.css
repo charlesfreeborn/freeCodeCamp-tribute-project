@@ -1,3 +1,50 @@
 body {
-  background-color: bisque;
+  background-color: #faf8f1;
+  font-size: 1em;
+  width: 100%;
+  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2 {
+  color: #c58940;
+  font-family: "Montserrat-bold", sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#title {
+  text-decoration: underline;
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto;
+}
+
+#img-caption {
+  text-align: center;
+}
+.dob {
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: #c58940;
+}
+
+.learn-more,
+footer {
+  text-align: center;
 }
